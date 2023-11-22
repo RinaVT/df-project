@@ -4,10 +4,6 @@ body {
 }
 
 .wrapper {
-	height: 100vh;
-	/* display: grid;
-	grid-template-columns: repeat(3, auto);
-	align-content: center;
-	justify-content: center;
-	gap: 20px; */
+	min-height: 100vh;
+	background-color: beige;
 }

@@ -1,0 +1,40 @@
+header {
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px calc(50% - 500px);
+}
+
+@media (max-width: 1060px) {
+    header {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logoIconGog {
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+input {
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 2px 16px;
+}

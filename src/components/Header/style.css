@@ -3,7 +3,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px calc(50% - 500px);
+    padding: 10px calc(50% - 500px);
 }
 
 @media (max-width: 1060px) {
@@ -11,18 +11,6 @@ header {
         padding-left: 30px;
         padding-right: 30px;
     }
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-
-.logoIconGog {
-    height: 30px;
-    width: 30px;
-    background-color: #fff;
 }
 
 nav {

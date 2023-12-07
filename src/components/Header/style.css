@@ -15,7 +15,14 @@ header {
 
 nav {
     display: flex;
-    gap: 30px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav>a {
+    width: 32px;
+    height: 28px;
 }
 
 input {

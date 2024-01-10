@@ -6,11 +6,18 @@ import {ReactComponent as CartIcon} from "./img/bag_buy.svg";
 import {ReactComponent as ProIcon} from "./img/dogFood_icon.svg";
 
 
-export default () => {
+export default ({products, update}) => {
     const [text, changeText] = useState();
-    let cnt = 0;
+    const [cnt, setCnt] = useState(0);
     const handler = e => {
         changeText(e.target.value);
+        const result = products.filter((el => el.name.toLowerCase().search(e.target.value.toLowerCase()) !== -1));
+        setCnt(result.length);
+        if (!text) {
+            update(products);
+        } else {
+            update(result);
+        }
     }
     return <>
         <header>

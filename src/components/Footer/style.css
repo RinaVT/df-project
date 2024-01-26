@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+}
+
+footer {
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px calc(50% - 500px);
+}
+
+@media (max-width: 1060px) {
+    header {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+.logoFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.logoFooter>p {
+    font-size: xx-small;
+}
+
+.navigator {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    align-items: start;
+}
+
+.mailTel {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+}
+
+.tel {
+    font-size: large;
+}
+
+.mail {
+    font-size: small;
+}
+
+.contactsIcon {
+    display: flex;
+    gap: 15px;
+}
+
+.contactsIcon>a {
+    width: 30px;
+    height: 26px;
+}
